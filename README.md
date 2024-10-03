@@ -2,9 +2,9 @@ Shinylive
 ==========
 
 examples/index.json
-examples/r/001-hello/app.R
-examples/r/002-text/app.R
-examples/r/003-reactivity/app.R
+examples/r/app1/app.R
+examples/r/app2/app.R
+examples/r/app3/app.R
 
 
 
