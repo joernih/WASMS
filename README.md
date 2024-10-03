@@ -1,6 +1,7 @@
 Shinylive
 ==========
 
+examples/index.json
 examples/r/001-hello/app.R
 examples/r/002-text/app.R
 examples/r/003-reactivity/app.R
