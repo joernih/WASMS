@@ -5,9 +5,7 @@ examples/index.json
 examples/r/app1/app.R
 examples/r/app2/app.R
 examples/r/app3/app.R
-
-
-
+examples/r/konsole/app.R
 
 
 Code for deploying Shiny applications that will run completely in the browser, using Pyodide and webR (Python and R compiled to WebAssembly).
