@@ -2,6 +2,10 @@ if (grepl("wasm", sessionInfo()[[2]])) {
   # If the session info contains "wasm", install the package from the specified repository
   webr::install("WASMP", repos = "https://joernih.github.io/WASMA/")
   library("WASMP")
+  data_ma <- fred_ts[[2]]
+  vd1 <- as.Date("2022-01-01")
+  vd2 <- as.Date("2020-02-01")
+  plnv <- c('nvalue','growth')[1]
 } else {
   # If the session info does not contain "wasm", load the package from the local library
   library("WASMP")
