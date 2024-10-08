@@ -2,6 +2,7 @@ Shinylive
 ==========
 
 examples/index.json
+examples/r/app0/app.R
 examples/r/app1/app.R
 examples/r/app2/app.R
 examples/r/app3/app.R
