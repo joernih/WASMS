@@ -1,8 +1,8 @@
 # Load the necessary libraries
+webr::install("WASMP", repos = "https://joernih.github.io/WASMA/")
+library(WASMP)
 library(shiny)
 library(DT)
-webr::install("WASMP", repos = "https://joernih.github.io/WASMA/")
-ls(package:WASMP)
 # Define the UI
 ui <- fluidPage(
     titlePanel("Data Table Example"),
@@ -22,5 +22,6 @@ server <- function(input, output) {
 
 # Run the app
 shinyApp(ui = ui, server = server)
+
 
 
