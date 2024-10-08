@@ -61,6 +61,7 @@
       {
         "category": "R examples",
         "apps": [
+          "app0",
           "app1",
           "app2",
           "app3",
